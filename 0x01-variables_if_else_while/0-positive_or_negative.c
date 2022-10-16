@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - print if the number is positive,negative or 0
+ * main - prints if the number is positive,negative or 0
  * Return: Always 0
  */
 int main(void)
@@ -23,5 +23,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is negative\n", n);
-		return (0);
+		printf("%d is negative\n", n)
+	}
+
+	return (0);
